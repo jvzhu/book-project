@@ -1,0 +1,27 @@
+name: Feedback
+about: Report unclear sections, errors, or improvement feedback
+title: "[Feedback] "
+labels: [feedback]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Which chapter/section is this about?
+      placeholder: "e.g., Chapter 1 > Key terms"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs improvement?
+      description: Describe what is unclear, incorrect, or hard to follow.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Optional concrete wording or idea.
+    validations:
+      required: false

@@ -1,0 +1,34 @@
+name: Content Suggestion
+about: Suggest a new topic, section, or chapter-level addition
+title: "[Content Suggestion] "
+labels: [content]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Suggested topic
+      placeholder: "e.g., Practical case study for Chapter 2"
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this should be added
+      description: Explain reader value and expected outcomes.
+    validations:
+      required: true
+  - type: input
+    id: placement
+    attributes:
+      label: Suggested placement
+      description: Existing chapter/section, or propose a new one.
+      placeholder: "e.g., Chapter 2, after Core concept B"
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References (optional)
+      description: Add links or citations if available.
+    validations:
+      required: false
