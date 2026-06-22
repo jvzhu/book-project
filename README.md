@@ -1,27 +1,39 @@
 # Book Project
 
-## 概要
-このプロジェクトは、新しい書籍の執筆、編集、および出版プロセスを管理するためのパブリックリポジトリです。Manus AIを活用し、効率的かつ体系的なコンテンツ制作を目指しています。
+Book Project is now defined as a full-stack reading platform covering catalog, author, reader, and community workflows.
 
-## プロジェクトの目的
-- 質の高いコンテンツの体系的な作成
-- 執筆プロセスの透明化と進捗管理
-- AIエージェント（Manus）との協働による創造性の最大化
+## Product scope
 
-## ロードマップ
-- [x] プロジェクトの初期化
-- [ ] 第1章：導入と背景の執筆
-- [ ] 第2章：主要概念の解説
-- [ ] 中間レビューとフィードバックの反映
-- [ ] 最終校正と出版準備
+The platform includes:
+- Book management (metadata, cover, series, tags, categories)
+- Author management (profiles, biography, works, stats, notifications)
+- Reader experience (search/filter, progress, bookmarks, notes, insights)
+- Community features (reviews, ratings, comments, recommendations, follows)
+- User management (profile, shelves, history, goals)
+- Library management (inventory, availability, reservations, lending)
+- Responsive frontend (dashboard, search, detail pages, theme support)
+- Backend REST API (Express.js + MongoDB + auth + pagination + rate limits)
+- Testing strategy (unit/integration/E2E/API/component + coverage target)
+- Deployment strategy (Docker + CI/CD + health checks + monitoring)
+- Documentation suite (user/admin/API/architecture/setup/contributing)
+- Performance & SEO (image optimization, lazy loading, meta tags, sitemap)
 
-## 参加・貢献方法
-このプロジェクトはパブリックに公開されています。フィードバックや提案がある場合は、以下の方法でご参加いただけます。
-1. **Issues**: 改善案やバグ報告、新しいアイデアの提案
-2. **Pull Requests**: 具体的な修正案の提出
+## Implementation blueprint
 
-## ライセンス
-このプロジェクトのコンテンツは、特に指定がない限り [MIT License](LICENSE) の下で公開されています。
+See `/supporting/product-specification.md` for:
+- Feature-by-feature acceptance criteria
+- API surface and data model baseline
+- Frontend architecture and UX expectations
+- Testing, deployment, and documentation deliverables
 
----
-*Created and maintained with the help of Manus AI.*
+## Repository status
+
+This repository currently stores the product definition and planning artifacts for implementation.
+
+## Contributing
+
+Please use issues and pull requests for scoped, reviewable changes. See `CONTRIBUTING.md` for contribution workflow details.
+
+## License
+
+Unless otherwise noted, this repository is licensed under the [MIT License](LICENSE).
