@@ -7,6 +7,7 @@ Thank you for helping improve this book project.
 - **Propose edits**: open a pull request with concrete content improvements.
 - **Submit feedback**: open a feedback issue with clarity, accuracy, or structure comments.
 - **Suggest content**: open a content suggestion issue for missing topics or chapter ideas.
+- **Implement scope**: open implementation PRs aligned with `supporting/product-specification.md`.
 
 ## Proposing edits (Pull Requests)
 
